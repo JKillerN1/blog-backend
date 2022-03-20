@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+{% extends 'base.html' %}
 {% load static %}
 <html lang="en">
+{% block content %}
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -254,4 +256,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
   <script src='{%static "scripts.js"%}'></script>
 </body>
+{% endblock %}
 </html>
